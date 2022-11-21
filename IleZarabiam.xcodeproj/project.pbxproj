@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E7057E1292933E1000100A7 /* IleZarabiamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7057E0292933E1000100A7 /* IleZarabiamApp.swift */; };
+		1E7057E3292933E1000100A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7057E2292933E1000100A7 /* ContentView.swift */; };
+		1E7057E5292933E2000100A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7057E4292933E2000100A7 /* Assets.xcassets */; };
+		1E7057E8292933E2000100A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7057E7292933E2000100A7 /* Preview Assets.xcassets */; };
+		1E7057EF29294035000100A7 /* EarningsCalculatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7057EE29294035000100A7 /* EarningsCalculatorService.swift */; };
+		1E7057F1292944D6000100A7 /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7057F0292944D6000100A7 /* Extension+Double.swift */; };
+		1E7057F8292A38B2000100A7 /* JobPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7057F7292A38B2000100A7 /* JobPartTime.swift */; };
+		1E7057FC292A38EF000100A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7057FB292A38EF000100A7 /* HomeView.swift */; };
+		1E7057FE292A4DDB000100A7 /* EarningsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7057FD292A4DDB000100A7 /* EarningsDetailsView.swift */; };
+		1E705800292A4E76000100A7 /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7057FF292A4E76000100A7 /* Extension+Color.swift */; };
+		1E705802292A8FAB000100A7 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E705801292A8FAB000100A7 /* PieChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E7057DD292933E1000100A7 /* IleZarabiam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IleZarabiam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7057E0292933E1000100A7 /* IleZarabiamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IleZarabiamApp.swift; sourceTree = "<group>"; };
+		1E7057E2292933E1000100A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E7057E4292933E2000100A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E7057E7292933E2000100A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E7057EE29294035000100A7 /* EarningsCalculatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningsCalculatorService.swift; sourceTree = "<group>"; };
+		1E7057F0292944D6000100A7 /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
+		1E7057F7292A38B2000100A7 /* JobPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPartTime.swift; sourceTree = "<group>"; };
+		1E7057FB292A38EF000100A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1E7057FD292A4DDB000100A7 /* EarningsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningsDetailsView.swift; sourceTree = "<group>"; };
+		1E7057FF292A4E76000100A7 /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
+		1E705801292A8FAB000100A7 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E7057DA292933E1000100A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E7057D4292933E1000100A7 = {
+			isa = PBXGroup;
+			children = (
+				1E7057DF292933E1000100A7 /* IleZarabiam */,
+				1E7057DE292933E1000100A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E7057DE292933E1000100A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E7057DD292933E1000100A7 /* IleZarabiam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E7057DF292933E1000100A7 /* IleZarabiam */ = {
+			isa = PBXGroup;
+			children = (
+				1E7057F5292A3876000100A7 /* Resources */,
+				1E7057F4292A386D000100A7 /* Service */,
+				1E7057F3292A386A000100A7 /* View */,
+				1E7057F2292A3866000100A7 /* Model */,
+				1E7057E0292933E1000100A7 /* IleZarabiamApp.swift */,
+				1E7057E4292933E2000100A7 /* Assets.xcassets */,
+				1E7057E6292933E2000100A7 /* Preview Content */,
+			);
+			path = IleZarabiam;
+			sourceTree = "<group>";
+		};
+		1E7057E6292933E2000100A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E7057E7292933E2000100A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E7057F2292A3866000100A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E7057F7292A38B2000100A7 /* JobPartTime.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E7057F3292A386A000100A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E7057E2292933E1000100A7 /* ContentView.swift */,
+				1E7057FB292A38EF000100A7 /* HomeView.swift */,
+				1E7057FD292A4DDB000100A7 /* EarningsDetailsView.swift */,
+				1E705801292A8FAB000100A7 /* PieChart.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E7057F4292A386D000100A7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1E7057EE29294035000100A7 /* EarningsCalculatorService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1E7057F5292A3876000100A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E7057F0292944D6000100A7 /* Extension+Double.swift */,
+				1E7057FF292A4E76000100A7 /* Extension+Color.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E7057DC292933E1000100A7 /* IleZarabiam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7057EB292933E2000100A7 /* Build configuration list for PBXNativeTarget "IleZarabiam" */;
+			buildPhases = (
+				1E7057D9292933E1000100A7 /* Sources */,
+				1E7057DA292933E1000100A7 /* Frameworks */,
+				1E7057DB292933E1000100A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IleZarabiam;
+			productName = IleZarabiam;
+			productReference = 1E7057DD292933E1000100A7 /* IleZarabiam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E7057D5292933E1000100A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1E7057DC292933E1000100A7 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 1E7057D8292933E1000100A7 /* Build configuration list for PBXProject "IleZarabiam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E7057D4292933E1000100A7;
+			productRefGroup = 1E7057DE292933E1000100A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E7057DC292933E1000100A7 /* IleZarabiam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E7057DB292933E1000100A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7057E8292933E2000100A7 /* Preview Assets.xcassets in Resources */,
+				1E7057E5292933E2000100A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7057D9292933E1000100A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7057F1292944D6000100A7 /* Extension+Double.swift in Sources */,
+				1E7057FC292A38EF000100A7 /* HomeView.swift in Sources */,
+				1E7057F8292A38B2000100A7 /* JobPartTime.swift in Sources */,
+				1E7057FE292A4DDB000100A7 /* EarningsDetailsView.swift in Sources */,
+				1E7057E3292933E1000100A7 /* ContentView.swift in Sources */,
+				1E7057EF29294035000100A7 /* EarningsCalculatorService.swift in Sources */,
+				1E705800292A4E76000100A7 /* Extension+Color.swift in Sources */,
+				1E7057E1292933E1000100A7 /* IleZarabiamApp.swift in Sources */,
+				1E705802292A8FAB000100A7 /* PieChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E7057E9292933E2000100A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E7057EA292933E2000100A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E7057EC292933E2000100A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IleZarabiam/Preview Content\"";
+				DEVELOPMENT_TEAM = FU45F4SL37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogrodowskitomasz.IleZarabiam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E7057ED292933E2000100A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IleZarabiam/Preview Content\"";
+				DEVELOPMENT_TEAM = FU45F4SL37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogrodowskitomasz.IleZarabiam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E7057D8292933E1000100A7 /* Build configuration list for PBXProject "IleZarabiam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7057E9292933E2000100A7 /* Debug */,
+				1E7057EA292933E2000100A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7057EB292933E2000100A7 /* Build configuration list for PBXNativeTarget "IleZarabiam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7057EC292933E2000100A7 /* Debug */,
+				1E7057ED292933E2000100A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E7057D5292933E1000100A7 /* Project object */;
+}
